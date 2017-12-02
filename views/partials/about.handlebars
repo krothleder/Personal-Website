@@ -1,0 +1,29 @@
+
+<section class="about">
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <h2 class="text-centered">{{pageTitle}}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column column-80 column-offset-10">
+                {{#each about}}
+                <p>
+                    {{this}}
+                </p>
+                {{/each}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="column column-80 column-offset-10 text-centered">
+                <h4>Things I Like</h4>
+                <ul>
+                {{#each likes}}
+                    <li>{{this}}</li>
+                {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,42 @@
+<section class="work">
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <h2 class="text-centered">{{pageTitle}}</h2>
+            </div>
+        </div>
+        {{#each workData}}
+            <div class="row">
+                <div class="column column-80 column-offset-10">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="column column-80">
+                                        <span>{{this.projectName}}</span>
+                                    </div>
+                                    <div class="column column-15">
+                                        <ul>
+                                            <li><a href={{this.github}} target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+                                            <li><a href={{this.url}} target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                {{#each this.tech}}
+                                <button class="button-small">{{this}}</button>
+                                {{/each}}
+                            </p>
+                            <p>
+                                {{this.summary}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{/each }}
+    </div>
+</section>
