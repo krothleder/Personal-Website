@@ -1,14 +1,15 @@
 const workData = [
     {
-        projectName: "Music On",
-        github: "https://github.com/jeffreylowy/music_app",
-        tech: ['AJAX', 'Spotify API', 'Firebase'],
-        summary: 'Music On: an all in one platform where you can find lyrics to your favorite songs allowing you to sing a long to the tracks.'
+        projectName: "Toy Share",
+        github: "https://github.com/krothleder/ToyShare",
+        url: 'https://toy-share-app.herokuapp.com/',
+        tech: ['AJAX', 'API', 'Express','Node','MongoDB','HandlebarsJS'],
+        summary: "Toy Share: a site for parents to share items with other parents."
     },
     {
         projectName: 'Train Schedule App',
         github: 'https://github.com/krothleder/Train-Schedule',
-        url: 'hhttps://krothleder.github.io/Train-Schedule/',
+        url: 'https://krothleder.github.io/Train-Schedule/',
         tech: ['HTML', 'CSS', 'jQuery', 'Firebase'],
         summary: "Train schedule application that keeps track of upcoming trains arrival times."
     },

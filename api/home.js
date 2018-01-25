@@ -1,6 +1,6 @@
 const home = {
     email: 'kaylynn.rothleder@gmail.com',
-    github: 'kothleder',
+    github: 'kothleder'
 }
 
 module.exports = home;
